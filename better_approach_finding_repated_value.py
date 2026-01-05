@@ -3,6 +3,7 @@ class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
         not_seen = []
         seen = []
+        print(nums)
 
 
         for n in range(len(nums)):
@@ -18,5 +19,7 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
     print(s.repeatedNTimes([10, 10, 20, 54]))
+
+
 
 
